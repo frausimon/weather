@@ -3,33 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>weather app</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Winnipeg</h1>
-        <p>
-          Saturday 21:21, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>☀ 14°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/frausimon" target="_blank">Katja Simon</a>
-      , is open-sourced on
-      <a href="https://github.com/frausimon/weather" target="_blank">GitHub</a>
-      and the website is hosted on
-      <a href="https://ww-weather-app.netlify.app/" target="_blank">Netlify.</a>
-    </footer>
+    <div class="app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Winnipeg</h1>
+          <p>
+            Saturday 21:21, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>☀ 14°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/frausimon" target="_blank">Katja Simon</a>
+        , is open-sourced on
+        <a href="https://github.com/frausimon/weather" target="_blank"
+          >GitHub</a
+        >
+        and the website is hosted on
+        <a href="https://ww-weather-app.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
